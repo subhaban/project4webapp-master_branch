@@ -85,7 +85,7 @@ var baseLayers = {
 
 var FlagIcon = L.Icon.extend({
   options: {
-    iconSize: [25, 25],
+    iconSize: [30, 30],
     iconAnchor: [0, 0]
   }
 });
@@ -118,7 +118,7 @@ fl9 = new FlagIcon({
   iconUrl: 'i/flags/florida-flag-icon-64.png'
 });
 fl10 = new FlagIcon({
-  iconUrl: 'i/flags/hawaii-flag-icon-64.png'
+  iconUrl: 'i/flags/georgia-flag-icon-64.png'
 });
 fl11 = new FlagIcon({
   iconUrl: 'i/flags/hawaii-flag-icon-64.png'
@@ -136,100 +136,178 @@ fl15 = new FlagIcon({
   iconUrl: 'i/flags/kansas-flag-icon-64.png'
 });
 fl16 = new FlagIcon({
-  iconUrl: 'i/flags/louisiana-flag-icon-64.png'
+  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
 });
 fl17 = new FlagIcon({
-  iconUrl: 'i/flags/maine-flag-icon-64.png'
+  iconUrl: 'i/flags/louisiana-flag-icon-64.png'
 });
 fl18 = new FlagIcon({
-  iconUrl: 'i/flags/maryland-flag-icon-64.png'
+  iconUrl: 'i/flags/maine-flag-icon-64.png'
 });
 fl19 = new FlagIcon({
-  iconUrl: 'i/flags/massachusetts-flag-icon-64.png'
+  iconUrl: 'i/flags/maryland-flag-icon-64.png'
 });
 fl20 = new FlagIcon({
-  iconUrl: 'i/flags/michigan-flag-icon-64.png'
+  iconUrl: 'i/flags/i/flags/massachusetts-flag-icon-64.png'
 });
 fl21 = new FlagIcon({
-  iconUrl: 'i/flags/minnesota-flag-icon-64.png'
+  iconUrl: 'i/flags/michigan-flag-icon-64.png'
 });
 fl22 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/minnesota-flag-icon-64.png'
 });
+////////Not added the icons
 fl23 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/missouri-flag-icon-64.png'
 });
 fl24 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/montana-flag-icon-64.png'
 });
 fl25 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/nebraska-flag-icon-64.png'
 });
 fl26 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/nevada-flag-icon-64.png'
 });
 fl27 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/new-hampshire-flag-icon-64.png'
 });
 fl28 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/new-jersey-flag-icon-64.png'
 });
 fl29 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/new-mexico-flag-icon-64.png'
 });
 fl30 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/new-york-flag-icon-64.png'
 });
 fl31 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/north-carolina-flag-icon-64.png'
 });
 fl32 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/north-dakota-flag-icon-64.png'
 });
 fl33 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/oklahoma-flag-icon-64.png'
 });
 fl34 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/oregon-flag-icon-64.png'
 });
 fl35 = new FlagIcon({
-  iconUrl: 'i/flags/kentucky-flag-icon-64.png'
+  iconUrl: 'i/flags/pennsylvania-flag-icon-64.png'
 });
 
 
 
-
-
-var fl1marker = L.marker([32.361538, -86.279118], {
+var fl1marker = L.marker([32.7504, -86.7503], {
   icon: fl1
-});
+}).bindPopup('<h5>Alabama</h5>')
 var fl2marker = L.marker([64.2008, -149.4937], {
   icon: fl2
-});
-var fl3marker = L.marker([33.448457, -112.073844], {
+}).bindPopup('<h5>Alaska</h5>')
+var fl3marker = L.marker([34.5003, -111.501], {
   icon: fl3
-});
-var fl4marker = L.marker([34.736009, -92.331122], {
+}).bindPopup('<h5>Arizona</h5>');
+var fl4marker = L.marker([42.0003, -93.5005], {
   icon: fl4
-});
-var fl5marker = L.marker([34.736009, -92.331122], {
+}).bindPopup('<h5>Arkansas</h5>');
+var fl5marker = L.marker([36.7783, -119.4179], {
   icon: fl5
 });
-var fl6marker = L.marker([34.736009, -92.331122], {
+var fl6marker = L.marker([39.7391667, -104.984167], {
   icon: fl6
 });
-var fl7marker = L.marker([34.736009, -92.331122], {
+var fl7marker = L.marker([41.767, -72.677], {
   icon: fl7
 });
-var fl8marker = L.marker([34.736009, -92.331122], {
+var fl8marker = L.marker([39.161921, -75.526755], {
   icon: fl8
 });
-var fl9marker = L.marker([34.736009, -92.331122], {
+var fl9marker = L.marker([28.7508, -82.5001], {
   icon: fl9
 });
-var fl10marker = L.marker([34.736009, -92.331122], {
+var fl10marker = L.marker([33.76, -84.39], {
   icon: fl10
 });
+
+var fl11marker = L.marker([20.7503, -156.5003], {
+  icon: fl11
+});
+var fl12marker = L.marker([43.613739, -116.237651], {
+  icon: fl12
+});
+var fl13marker = L.marker([40.6331, -89.3935], {
+  icon: fl13
+});
+var fl14marker = L.marker([41.590939, -93.620866], {
+  icon: fl14
+});
+var fl15marker = L.marker([39.0119, -98.4842], {
+  icon: fl15
+});
+var fl16marker = L.marker([38.197274,-84.86311], {
+  icon: fl16
+});
+var fl17marker = L.marker([31.0005, -92.004], {
+  icon: fl17
+});
+var fl18marker = L.marker([44.323535, -69.765261], {
+  icon: fl18
+});
+var fl19marker = L.marker([39.0004, -76.7501], {
+  icon: fl19
+});
+var fl20marker = L.marker([42.2352, -84.5467], {
+  icon: fl20
+});
+var fl21marker = L.marker([44.2503,-85.5003], {
+  icon: fl21
+});
+var fl22marker = L.marker([46.2502,-94.25003], {
+  icon: fl22
+});
+var fl23marker = L.marker([46.2502,-94.25003], {
+  icon: fl23
+});
+var fl24marker = L.marker([46.2502,-94.25003], {
+  icon: fl24
+});
+var fl25marker = L.marker([41.5003,-99.7507], {
+  icon: fl25
+});
+var fl26marker = L.marker([39.2502,-116.7512], {
+  icon: fl26
+});
+var fl27marker = L.marker([43.667,-71.4998], {
+  icon: fl27
+});
+var fl28marker = L.marker([40.1671,-74.49999], {
+  icon: fl28
+});
+var fl29marker = L.marker([34.5002,-106.0003], {
+  icon: fl29
+});
+var fl30marker = L.marker([40.7143,-74.0003], {
+  icon: fl30
+});
+var fl31marker = L.marker([35.5002,-80.003], {
+  icon: fl31
+});
+var fl32marker = L.marker([47.5003,-100.007], {
+  icon: fl32
+});
+var fl33marker = L.marker([40.2503,-83.002], {
+  icon: fl33
+});
+var fl34marker = L.marker([35.5502,-97.4003], {
+  icon: fl34
+});
+var fl35marker = L.marker([44.0001,-120.5014], {
+  icon: fl35
+});
+
+
+
 
 ///----Point of Interest--////
 
@@ -241,7 +319,7 @@ var LeafletIcon = L.Icon.extend({
 })
 
 var poi1Icon = new LeafletIcon({
-    iconUrl: 'i/poi/statueof Liberty.png'
+    iconUrl: 'i/poi/statue_of_Liberty.png'
   }),
   poi2Icon = new LeafletIcon({
     iconUrl: 'i/poi/mtrushmore.png'
@@ -250,7 +328,7 @@ var poi1Icon = new LeafletIcon({
     iconUrl: 'i/poi/grandcanyon.png'
   }),
   poi4Icon = new LeafletIcon({
-    iconUrl: 'i/poi/naigra_falls.png'
+    iconUrl: 'i/poi/niagra_2.png'
   }),
   poi5Icon = new LeafletIcon({
     iconUrl: 'i/poi/yellowstone.png'
@@ -264,44 +342,44 @@ var poi1Icon = new LeafletIcon({
   poi8Icon = new LeafletIcon({
     iconUrl: 'i/poi/goldengate.png'
   })
-  poi9Icon = new LeafletIcon({
-    iconUrl: 'i/poi/illunious.png'
+  poi9Icon = new LeafletIcon({     
+    iconUrl: 'i/poi/disneyworld.png'
   })
   poi10Icon = new LeafletIcon({
     iconUrl: 'i/poi/alaska.png'
   })
-
+ // '<a href="Web Page Adress Here"><h1> Test Title </h1></a><img src="Link to Image" width=100 height=100 />'
 
 var p1Marker = L.marker([40.7128, -74.0060], {
   icon: poi1Icon
-})
+}).bindPopup('<a href= https://www.nps.gov/stli/index.htm ><h4>Statue of Liberty,New York </h4></a><img src = i/poi/statue_of_Liberty.png width= 30>')
 p2Marker = L.marker([43.8791, -103.4591], {
   icon: poi2Icon
-})
+}).bindPopup(' <a href= https://www.nps.gov/moru/index.htm ><h4>Mt.Rushmore,South Dakota</h4></a> <img src = i/poi/mtrushmore.png width= 30> ')
 p3Marker = L.marker([36.0544, -112.1401], {
   icon: poi3Icon
-})
+}).bindPopup('<a href= https://www.nps.gov/grca/index.htm ><h4>Grand Canyon,Arizona</h4></a> <img src = i/poi/grandcanyon.png width= 30>')
 p4Marker = L.marker([43.0962, -79.0377], {
-  icon: poi4Icon
-})
+  icon: poi4Icon   
+}).bindPopup('<a href= https://www.niagarafallsstatepark.com ><h3>Naigra Falls,NewYork</h3></a> <img src = i/poi/niagra_2.png width= 30>')
 p5Marker = L.marker([44.4280, -110.5885], {
   icon: poi5Icon
-})
+}).bindPopup('<a href= https://www.nps.gov/yell/index.htm ><h4>Yellowstone,Wyoming,Montana,Idaho</h4></a> <img src = i/poi/yellowstone.png width= 30>')
 p6Marker = L.marker([20.798363, -156.331924], {
   icon: poi6Icon
-})
+}).bindPopup('<a href= https://www.gohawaii.com ><h4>Maui,Hawaii</h4></a> <img src = i/poi/hawaii.png width= 30>')
 p7Marker = L.marker([39.3210, -111.0937], {
   icon: poi7Icon
-})
+}).bindPopup('<a href= https://www.nps.gov/arch/index.htm><h4>Arches National Park,Utah</h4></a> <img src = i/poi/utah.png width= 30>')
 p8Marker = L.marker([37.7749,-122.4194], {
   icon: poi8Icon
-})
-p9Marker = L.marker([40.6331, -89.3985], {
+}).bindPopup('<a href= https://www.nps.gov/goga/index.htm ><h4>Golden Gate,San Fransisco</h4></a> <img src = i/poi/disneyworld.png width= 30>')
+p9Marker = L.marker([28.3772, -81.5707], {
   icon: poi9Icon
-})
+}).bindPopup('<a href= https://www.niagarafallsstatepark.com/><h4>Disney World,Florida</h4></a> <img src = i/poi/disneyworld.png width= 30 style:border:3px>')
 p10Marker = L.marker([64.2008, -149.4937], {
   icon: poi10Icon
-})
+}).bindPopup('<a href= https://www.alaska.org/advice/glaciers-in-alaska ><h4>Mendenhall Glacier,Alaska</h4></a> <img src = i/poi/alaska.png width= 30 >')
 
 
 
@@ -311,7 +389,10 @@ p10Marker = L.marker([64.2008, -149.4937], {
 
 
 var ptMarker = L.layerGroup([p1Marker, p2Marker, p3Marker, p4Marker, p5Marker, p6Marker, p7Marker,p8Marker,p9Marker,p10Marker])
-var stateFlags = L.layerGroup([fl1marker, fl2marker, fl3marker, fl4marker, fl5marker, fl6marker, fl7marker, fl8marker, fl9marker, fl10marker]);
+
+var stateFlags = L.layerGroup([fl1marker, fl2marker, fl3marker, fl4marker, fl5marker, fl6marker, fl7marker, fl8marker, fl9marker,fl11marker,fl12marker,fl13marker,fl14marker,fl15marker,fl16marker,fl17marker,fl18marker,fl19marker,fl20marker,
+  fl21marker,fl22marker,fl23marker,fl24marker,fl25marker,fl26marker,fl27marker,fl28marker,fl29marker,fl30marker,fl31marker,fl32marker,fl33marker,fl34marker,fl35marker,])
+  //fl36marker,fl37marker,fl38marker,fl39marker,fl40marker,fl41marker,fl42marker,fl43marker,fl44marker,fl45marker,fl46marker,fl47marker,fl48marker,fl49marker,fl50marker,]);
 
 
 // L.control.layers(baseLayers, overlays).addTo(map);
@@ -434,15 +515,16 @@ info.update = function (props) {
 info.addTo(map);
 
 var legend = L.control({
+ 
   position: 'bottomright'
+  
 });
 
 legend.onAdd = function (map) {
 
-  var div = L.DomUtil.create('div', 'info legend'),
+  var div = L.DomUtil.create('div','info legend'),  
     grades = [0, 10, 20, 50, 100, 200, 500, 1000],
     labels = [];
-
 
   // loop through our density intervals and generate a label with a colored square for each interval
   for (var i = 0; i < grades.length; i++) {
@@ -463,6 +545,7 @@ const apiKey = 'eb380ce293c80acb396c9d71258f3d32';
 // add marker with popup
 async function addMarkers() {
   removeMarkers();
+  removePopups();
 
   var states = await fetchStates();
 
@@ -604,6 +687,7 @@ async function getCapitals() {
 
 async function addPopups() {
   removePopups();
+  removeMarkers();
 
   var list = await getCapitals();
 
@@ -667,7 +751,7 @@ const randomizeText = () => {
   const animation = compStyles.getPropertyValue('animation');
   const animationTime = parseFloat(animation.match(/\d*[.]?\d+/)) * 1000;
 
-  const phrases = ['State', 'Capital', 'Population ', 'Weather', 'Latitude', 'longitude'];
+  const phrases = ['State', 'Capital', 'Population ', 'Weather', 'Latitude', 'Longitude'];
 
   i = randomNum(i, phrases.length);
   const newPhrase = phrases[i];
