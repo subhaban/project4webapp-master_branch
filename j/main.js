@@ -196,6 +196,21 @@ fl34 = new FlagIcon({
 fl35 = new FlagIcon({
   iconUrl: 'i/flags/pennsylvania-flag-icon-64.png'
 });
+fl36 = new FlagIcon({
+  iconUrl: 'i/flags/texas-flag-icon-64.png'
+}),
+fl37 = new FlagIcon({
+  iconUrl: 'i/flags/wyoming-flag-icon-64.png'
+}),
+fl38 = new FlagIcon({
+  iconUrl: 'i/flags/utah-flag-icon-64.png'
+}),
+fl39 = new FlagIcon({
+  iconUrl: 'i/flags/south-dakota-flag-icon-64.png'
+}),
+fl40 = new FlagIcon({
+  iconUrl: 'i/flags/wisconsin-flag-icon-64.png'
+})
 
 
 
@@ -210,101 +225,117 @@ var fl3marker = L.marker([34.5003, -111.501], {
 }).bindPopup('<h5>Arizona</h5>');
 var fl4marker = L.marker([42.0003, -93.5005], {
   icon: fl4
-}).bindPopup('<h5>Arkansas</h5>');
+}).bindPopup('<h5>Arkansas</h5>')
 var fl5marker = L.marker([36.7783, -119.4179], {
   icon: fl5
-});
+}).bindPopup('<h5>California</h5>')
 var fl6marker = L.marker([39.7391667, -104.984167], {
   icon: fl6
-});
+}).bindPopup('<h5>Colarado</h5>')
 var fl7marker = L.marker([41.767, -72.677], {
   icon: fl7
-});
+}).bindPopup('<h5>Connecticut</h5>')
 var fl8marker = L.marker([39.161921, -75.526755], {
   icon: fl8
-});
+}).bindPopup('<h5>Delaware</h5>')
 var fl9marker = L.marker([28.7508, -82.5001], {
   icon: fl9
-});
+}).bindPopup('<h5>Florida</h5>')
 var fl10marker = L.marker([33.76, -84.39], {
   icon: fl10
-});
+}).bindPopup('<h5>Georgia</h5>')
 
 var fl11marker = L.marker([20.7503, -156.5003], {
   icon: fl11
-});
+}).bindPopup('<h5>Hawaii</h5>')
 var fl12marker = L.marker([43.613739, -116.237651], {
   icon: fl12
-});
+}).bindPopup('<h5>Idaho</h5>')
 var fl13marker = L.marker([40.6331, -89.3935], {
   icon: fl13
-});
+}).bindPopup('<h5>Illinois</h5>')
 var fl14marker = L.marker([41.590939, -93.620866], {
   icon: fl14
-});
+}).bindPopup('<h5>Iowa</h5>');
 var fl15marker = L.marker([39.0119, -98.4842], {
   icon: fl15
-});
+}).bindPopup('<h5>Kansas</h5>')
 var fl16marker = L.marker([38.197274,-84.86311], {
   icon: fl16
-});
+}).bindPopup('<h5>Kentucky</h5>')
 var fl17marker = L.marker([31.0005, -92.004], {
   icon: fl17
-});
+}).bindPopup('<h5>Louisiana</h5>')
 var fl18marker = L.marker([44.323535, -69.765261], {
   icon: fl18
-});
+}).bindPopup('<h5>Maine</h5>')
 var fl19marker = L.marker([39.0004, -76.7501], {
   icon: fl19
-});
+}).bindPopup('<h5>Maryland</h5>')
 var fl20marker = L.marker([42.2352, -84.5467], {
   icon: fl20
-});
+}).bindPopup('<h5>Massachusetts</h5>')
 var fl21marker = L.marker([44.2503,-85.5003], {
   icon: fl21
-});
+}).bindPopup('<h5>Michigan</h5>')
 var fl22marker = L.marker([46.2502,-94.25003], {
   icon: fl22
-});
+}).bindPopup('<h5>Minnesota</h5>')
 var fl23marker = L.marker([46.2502,-94.25003], {
   icon: fl23
-});
-var fl24marker = L.marker([46.2502,-94.25003], {
+}).bindPopup('<h5>Missouri</h5>')
+var fl24marker = L.marker([46.8797,-110.3626], {
   icon: fl24
-});
+}).bindPopup('<h5>Montana</h5>')
 var fl25marker = L.marker([41.5003,-99.7507], {
   icon: fl25
-});
+}).bindPopup('<h5>Nebraska</h5>')
 var fl26marker = L.marker([39.2502,-116.7512], {
   icon: fl26
-});
+}).bindPopup('<h5>Nevada</h5>')
 var fl27marker = L.marker([43.667,-71.4998], {
   icon: fl27
-});
+}).bindPopup('<h5>New Hampshire</h5>')
 var fl28marker = L.marker([40.1671,-74.49999], {
   icon: fl28
-});
+}).bindPopup('<h5>New Jersey</h5>')
 var fl29marker = L.marker([34.5002,-106.0003], {
   icon: fl29
-});
+}).bindPopup('<h5>New Mexico</h5>')
 var fl30marker = L.marker([40.7143,-74.0003], {
   icon: fl30
-});
+}).bindPopup('<h5>New York</h5>')
 var fl31marker = L.marker([35.5002,-80.003], {
   icon: fl31
-});
+}).bindPopup('<h5>North Carolina</h5>');;
 var fl32marker = L.marker([47.5003,-100.007], {
   icon: fl32
-});
+}).bindPopup('<h5>North Dakota</h5>');;
 var fl33marker = L.marker([40.2503,-83.002], {
   icon: fl33
-});
+}).bindPopup('<h5>Ohio</h5>')
 var fl34marker = L.marker([35.5502,-97.4003], {
   icon: fl34
-});
+}).bindPopup('<h5>Oklahoma</h5>')
 var fl35marker = L.marker([44.0001,-120.5014], {
   icon: fl35
-});
+}).bindPopup('<h5>Oregon</h5>')
+var fl36marker = L.marker([31.2504,-99.2506], {
+  icon: fl36
+}).bindPopup('<h5>Texas</h5>')
+var fl37marker = L.marker([43.0001,-107.5009], {
+  icon: fl37
+}).bindPopup('<h5>Wyoming</h5>')
+var fl38marker = L.marker([39.2502,-111.751], {
+  icon: fl38
+}).bindPopup('<h5>Utah</h5>')
+var fl39marker = L.marker([44.5003,-100.2507], {
+  icon: fl39
+}).bindPopup('<h5>South Dakota</h5>')
+var fl40marker = L.marker([44.5002,-90.0004], {
+  icon: fl40
+}).bindPopup('<h5>Wisconsin</h5>');
+
 
 
 
@@ -391,8 +422,9 @@ p10Marker = L.marker([64.2008, -149.4937], {
 var ptMarker = L.layerGroup([p1Marker, p2Marker, p3Marker, p4Marker, p5Marker, p6Marker, p7Marker,p8Marker,p9Marker,p10Marker])
 
 var stateFlags = L.layerGroup([fl1marker, fl2marker, fl3marker, fl4marker, fl5marker, fl6marker, fl7marker, fl8marker, fl9marker,fl11marker,fl12marker,fl13marker,fl14marker,fl15marker,fl16marker,fl17marker,fl18marker,fl19marker,fl20marker,
-  fl21marker,fl22marker,fl23marker,fl24marker,fl25marker,fl26marker,fl27marker,fl28marker,fl29marker,fl30marker,fl31marker,fl32marker,fl33marker,fl34marker,fl35marker,])
-  //fl36marker,fl37marker,fl38marker,fl39marker,fl40marker,fl41marker,fl42marker,fl43marker,fl44marker,fl45marker,fl46marker,fl47marker,fl48marker,fl49marker,fl50marker,]);
+  fl21marker,fl22marker,fl23marker,fl24marker,fl25marker,fl26marker,fl27marker,fl28marker,fl29marker,fl30marker,fl31marker,fl32marker,fl33marker,fl34marker,fl35marker,
+  fl36marker,fl37marker,fl38marker,fl39marker,fl40marker])
+  //fl41marker,fl42marker,fl43marker,fl44marker,fl45marker,fl46marker,fl47marker,fl48marker,fl49marker,fl50marker,;
 
 
 // L.control.layers(baseLayers, overlays).addTo(map);
